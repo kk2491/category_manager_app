@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:13000/v1/";
+const API_URL = "https://category-manager.onrender.com/v1/";
 
 export const getCategories = async () => {
   try {
