@@ -1,0 +1,40 @@
+.category-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.category-container h1 {
+    font-size: x-large;
+    font-weight: bold;
+    color: darkgreen;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.category-container h2 {
+    font-size:larger;
+    font-weight: bold;
+    color: darkgreen;
+    margin-top: 2%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: start;
+    margin-left: 5%;
+}
+
+.button-container button {
+    font-weight: bold;
+    margin-top: 2%;
+    color:dimgray;
+    border-radius: 5px;
+}
+
+.category-container ul {
+    font-size:large;
+    list-style-type:circle;
+    font-weight: bold;
+    color:dimgray;
+}
